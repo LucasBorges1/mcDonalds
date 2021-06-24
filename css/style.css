@@ -26,7 +26,6 @@
      color: black;
      display: inline-block;
      list-style: none;    
-     overflow: hidden;
      padding: 0px;
 
  }
@@ -103,7 +102,7 @@ h2{
   padding: 0;
 }
 #logo{
-    width: 43px;
+    
     float:left;
   
 }
