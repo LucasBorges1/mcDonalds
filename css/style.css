@@ -1,0 +1,145 @@
+@font-face {
+    font-family:speed;
+    src: url(../assets/speedbold.ttf);
+ }
+ 
+ *{
+    font-family:"speed";
+ }
+
+ body{
+    background-color: white;
+     margin: 0px;
+     
+ }
+
+ .navBar{
+     background-color: white;
+     width: auto;
+     height: 120px;
+     padding: 0px 122px;
+     
+     
+ }
+
+ ul{
+     color: black;
+     display: inline-block;
+     list-style: none;    
+     overflow: hidden;
+     padding: 0px;
+
+ }
+
+ li{
+     float: left;
+     margin: 20px;
+ }
+
+ a:link {
+    color: black;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  a:hover {
+    color: #ffbc0d;
+    
+  }
+
+ 
+  #buttom{
+      background-color:#ffbc0d;
+      padding: 20px;
+      margin: 0px;
+      border: #ffbc0d;
+      border-radius: 10px;
+      color: white;
+  }
+
+body{
+  background-image: url(../assets/1200x520_9cf00ff6a8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sectionText{
+  float: right;
+  width: 20%;
+  padding-top: 175px;
+  font-size: 35px;
+  color: #292929;
+  justify-content: left;
+  margin: 0;
+  
+}
+
+h2{
+  font-size: 20px;
+}
+
+#buttom2{
+  font-size: 15px ;
+  margin: 0;
+  background-color:#ffbc0d;
+  padding: 20px;
+  margin: 0px;
+  border: #ffbc0d;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  
+}
+
+@media only screen and (max-width: 600px)
+
+{
+
+.navBar{
+  width: auto;
+  height: 45.6px;
+  padding: 0;
+}
+#logo{
+    width: 43px;
+    float:left;
+  
+}
+
+ul{
+  display: none;
+}
+body{
+  background-color: white;
+  background-image: none;
+}
+#sectionText{
+  float: left;
+  width: 20%;
+  /* padding: 175px; */
+  font-size: 35px;
+  color: #292929;
+  justify-content: right;
+  margin: 0;
+  
+}
+h2{
+  font-size: 20px;
+}
+
+#buttom2{
+  font-size: 15px ;
+  display: inline block;
+  background-color:#ffbc0d;
+  /* padding: 20px;
+  margin: 0px; */
+  border: #ffbc0d;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  
+}
+}
+
